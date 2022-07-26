@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "cstdlib": "cpp",
+        "cmath": "cpp",
+        "istream": "cpp",
+        "*.tcc": "cpp",
+        "iomanip": "cpp",
+        //"editor.renderIndentGuides":true
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.autoGuessEncoding": true
+}
