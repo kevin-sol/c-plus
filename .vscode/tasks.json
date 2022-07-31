@@ -11,7 +11,7 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-I",
-                "C:\\Users\\86181\\Desktop\\test",
+                "D:\\Github-Code\\c-plus",
                 "-std=c++17"
             ],
             "presentation": {

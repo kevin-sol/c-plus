@@ -7,3 +7,7 @@
  * 
  * @copyright Copyright (c) 2022
  */
+#include<stdio.h>
+int main(){
+    printf("hello world!");
+}
