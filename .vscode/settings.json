@@ -7,7 +7,7 @@
         "istream": "cpp",
         "*.tcc": "cpp",
         "iomanip": "cpp",
-        //"editor.renderIndentGuides":true
+        "editor.renderIndentGuides":true
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "files.autoGuessEncoding": true
