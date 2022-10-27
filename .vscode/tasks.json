@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}\\a.exe",
                 "-I",
                 "D:\\Github-Code\\c-plus",
                 "-std=c++17"
@@ -34,7 +34,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\a.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
