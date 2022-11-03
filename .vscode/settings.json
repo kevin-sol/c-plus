@@ -11,5 +11,8 @@
         "types.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
-    "files.autoGuessEncoding": true
+    "files.autoGuessEncoding": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.autoClosingBrackets": "always",
+    "C_Cpp.autocompleteAddParentheses": true
 }
