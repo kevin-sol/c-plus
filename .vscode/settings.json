@@ -8,7 +8,8 @@
         "*.tcc": "cpp",
         "iomanip": "cpp",
         "editor.renderIndentGuides": true,
-        "types.h": "c"
+        "types.h": "c",
+        "string": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "files.autoGuessEncoding": true,
