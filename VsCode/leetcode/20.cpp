@@ -43,6 +43,5 @@ int main(int argc, char const *argv[])
     Solution si;
     string s="(){}";
     cout<< si.isValid(s)<<endl;
-    
     return 0;
 }
