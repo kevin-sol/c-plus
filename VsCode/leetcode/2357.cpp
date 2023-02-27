@@ -21,3 +21,21 @@ public:
         return cnt;
     }
 };
+/*class Solution
+{
+public:
+    int minimumOperations(vector<int> &nums)
+    {
+        int cnt = 0;
+        int max = 0;
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < nums.end(); i++) {
+            if (nums[i] > max) {
+                max = nums[i];
+                cnt++;
+            }
+        }
+
+        return cnt;
+    }
+};*/
