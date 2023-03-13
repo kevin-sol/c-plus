@@ -12,7 +12,6 @@ int main(int argc, char const *argv[])
         }
         cout << m['b'] << endl;
     }
-
     system("pause");
     return 0;
 }
