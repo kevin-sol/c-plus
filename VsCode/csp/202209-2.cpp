@@ -1,7 +1,34 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 using namespace std;
+/*dp*/
+#define maxn 300010
+int dp[40][maxn] = {{0}};
+int a[40] = {0};
+int main(int argc, char const *argv[])
+{
+    int n, x;
+    scanf("%d %d", &n, &x);
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        scanf("%d", a + i);
+        sum += a[i];
+    }
+    int m = sum - x;
+    for (int i = 1; i < n + 1; i++) {
+        for (int j = 1; j < m + 1; j++) {
+            if (j < a[i]) {
+                dp[i][j] = dp[i - 1][j];
+            } else
+                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - a[i]] + a[i]);
+        }
+    }
+    printf("%d\n", sum - dp[n][m]);
+    system("pause");
+    return 0;
+}
+
+/* dfs
 int n, x;
 int mins = 3e5;
 vector<int> a;
@@ -34,4 +61,4 @@ int main(int argc, char const *argv[])
     printf("%d", mins);
     system("pause");
     return 0;
-}
+}*/
